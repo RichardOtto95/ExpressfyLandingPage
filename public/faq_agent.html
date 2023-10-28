@@ -1,0 +1,721 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>A entrega mas rápida do universo | MercadoExpresso - Brasil</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="resources/css/img/favicon-32x32.png">
+    <link rel="stylesheet" type="text/css" href="resources/css/styles.css">
+    <link rel="stylesheet" type="text/css" href="resources/css/utilities.css">
+
+    <script type="text/javascript" src="resources/js/functions.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+</head>
+
+<body>
+
+    <header>
+        <div class="navbar" style="background-color:black;">
+            <div class="flex">
+                <div class="flex">
+                    <a id="home" href="index.html"><img src="resources/css/img/mex_logtipo_h_dark.png" alt=""></a>
+                </div>
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Início</a></li>
+                        <li><a href="agent.html">Seja um Agente</a></li>
+                        <li><a href="supplier.html">Seja um Fornecedor</a></li>
+                        <li><a href="#">Ajuda</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+        <section class="header">
+            <div class="row">
+                <h1> MercadoExpresso
+                    <h1 />
+            </div>
+            <div class="row"><a class="by-score" target="_blank" href="https://scorefy-3a3a8.web.app/">by Scorefy</a></div>
+        </section>
+        <nav>
+            <ul class="info-sup">
+                <li><a href="#" style="color: darkslategrey;">Perguntas
+                            frequentes (FAQs)</a></li>
+                <li><a href="service.html">Atendimento</a></li>
+            </ul>
+        </nav>
+
+    </header>
+
+    <article class="faq-article">
+        <div class="row">
+            <nav>
+                <ul class="infos">
+                    <!-- <li><button onclick="alertaFunção()">Clique</button></li> -->
+                    <li><a href="faq_customer.html">Cliente</a></li>
+                    <li><a href="faq_supplier.html">Fornecedor</a></li>
+                    <li><a href="#agente" style="color: darkslategrey;">Agente</a></li>
+                </ul>
+            </nav>
+        </div>
+        <h5>Perguntas frequentes (FAQs)</h5>
+        <section id="agent" class="questions">
+            <div class="question-card" onclick="showHidden('hidden-1')">
+                <div class="card-flex">
+                    <h3>O que é o MercadoExpresso?</h3>
+                    <i class="fas fa-angle-down"></i>
+                </div>
+                <div id="hidden-1" style="display: none;">
+                    <p> MercadoExpresso® é uma plataforma na qual você pode distribuir seus produtos a clientes de sua região, em menos de 90 minutos e sem nenhum investimento.</p>
+                </div>
+            </div>
+            <div class="question-card" onclick="showHidden('hidden-2')">
+                <div class="card-flex">
+                    <h3>O que é um Agente parceiro?</h3>
+                    <i class="fas fa-angle-down"></i>
+                </div>
+                <div id="hidden-2" style="display: none;">
+                    <p>Agente parceiro é um profissional autônomo que recebe demandas de serviços da plataforma e, dentro de sua conveniência, escolhe em quais deseja atuar. Seja como renda extra ou principal, os Agentes parceiros são remunerados pelos serviços
+                        que geralmente se relacionam a coletar pedidos em fornecedores e entregar a clientes, mas não se limitam a isso, visando auxiliar a MercadoExpresso a oferecer uma experiência diferenciada para seus clientes. </p>
+                </div>
+            </div>
+            <div class="question-card" onclick="showHidden('hidden-3')">
+                <div class="card-flex">
+                    <h3>Quais são as etapas para eu me tornar um Agente parceiro da MercadoExpresso?</h3>
+                    <i class="fas fa-angle-down"></i>
+                </div>
+                <div id="hidden-3" style="display: none;">
+                    <p>É fácil ser um Agente parceiro. Basta seguir esses passos:</p>
+                    <ol>
+                        <li>Baixe o aplicativo do Agente na <a href="https://play.google.com/store/search?q=MercadoExpresso" target="_blank">PlayStore</a> ou na <a href="https://www.apple.com/br/search/MercadoExpresso?src=globalnav" target="_blank">AppStore</a>;</li>
+                        <li>Faça o cadastro fornecendo os dados solicitados;</li>
+                        <li>Fotografe os documentos solicitados, clique no botão “Enviar” e aguarde a confirmação;</li>
+                        <li>No seu primeiro acesso, você precisará assistir uma apresentação online em vídeo. Ele tem todas as informações importantes para você se tornar um Agente 5 estrelas e aumentar sua renda.</li>
+                        <li>Depois disso é só aguardar sua ativação na plataforma para começar a atender as missões e faturar.
+                        </li>
+                    </ol>
+                </div>
+            </div>
+            <div class="question-card" onclick="showHidden('hidden-4')">
+                <div class="card-flex">
+                    <h3>O que são Missões?</h3>
+                    <i class="fas fa-angle-down"></i>
+                </div>
+                <div id="hidden-4" style="display: none;">
+                    <p>Missões são solicitações de serviço (geralmente relacionados a entregas) que são disponibilizadas para Agentes parceiros e que, caso aceitas e cumpridas, geram receita para o parceiro.</p>
+                </div>
+            </div>
+            <div class="question-card" onclick="showHidden('hidden-5')">
+                <div class="card-flex">
+                    <h3>Fiz o cadastro, enviei as fotos, assisti à apresentação online e ainda não fui ativado. O que aconteceu?
+                    </h3><i class="fas fa-angle-down"></i>
+                </div>
+                <div id="hidden-5" style="display: none;">
+                    <p>Se você realizou todos os procedimentos online, a sua ativação será concluída de acordo com a nossa demanda, para manter um equilíbrio entre o número de pedidos e a quantidade de motoristas parceiros ativos na plataforma na sua região.</p>
+                    <p>Se este prazo passou e a ativação não ocorreu, duas situações podem ter ocorrido: a primeira é que havia alguma irregularidade com sua documentação, e a segunda é a ausência de documentos e/ou a observação “Exerce Atividade Remunerada”
+                        na sua CNH.</p>
+                    <p>Em ambos os casos, você receberá mensagens tanto no e-mail, como no Whatsapp informando o problema e solicitando o reenvio. Fique tranquilo!</p>
+                </div>
+            </div>
+            <div class="question-card" onclick="showHidden('hidden-6')">
+                <div class="card-flex">
+                    <h3>Como a MercadoExpresso funciona? Posso participar em meio período?</h3>
+                    <i class="fas fa-angle-down"></i>
+                </div>
+                <div id="hidden-6" style="display: none;">
+                    <p>A MercadoExpresso é uma plataforma que conecta fornecedores de produtos, a clientes que precisam de serviços relacionados à entrega. Como um Agente MercadoExpresso você pode escolher quando e quais entregas deseja fazer. </p>
+                </div>
+            </div>
+            <div class="question-card" onclick="showHidden('hidden-7')">
+                <div class="card-flex">
+                    <h3>O que preciso fazer durante o processo de registro?</h3>
+                    <i class="fas fa-angle-down"></i>
+                </div>
+                <div id="hidden-7" style="display: none;">
+                    <p>Após concluir seu cadastro, apenas fique de olho no aplicativo e em seu e-mail e aguarde. Nosso time de cadastro eventualmente solicita o reenvio de algumas fotos ou documentos.</p>
+                </div>
+            </div>
+            <div class="question-card" onclick="showHidden('hidden-8')">
+                <div class="card-flex">
+                    <h3>Meus documentos estão seguros?</h3>
+                    <i class="fas fa-angle-down"></i>
+                </div>
+                <div id="hidden-8" style="display: none;">
+                    <p>As imagens de seus documentos são criptografadas com tecnologia de ponta e jamais serão compartilhadas. Fique tranquilo!</p>
+                </div>
+            </div>
+            <div class="question-card" onclick="showHidden('hidden-9')">
+                <div class="card-flex">
+                    <h3>Quais os requisitos necessários para a minha ativação com veículos de 2 rodas?<br>Para motos deplaca cinza:</h3>
+                    <i class="fas fa-angle-down"></i>
+                </div>
+                <div id="hidden-9" style="display: none;">
+                    <p>Os seguintes documentos atualizados:</p>
+                    <p>- CNH com a observação EAR (Exerce Atividade Remunerada) ativa ou MEI com atividade relacionada a entregas;
+                    </p>
+                    <p>- Um comprovante que informe os números da sua agência e conta bancária. Esse comprovante pode ser um cartão de débito ou de crédito, um extrato bancário ou até mesmo uma captura de tela do aplicativo do seu banco. A conta precisa
+                        estar no seu nome e você deve especificar se ela é corrente ou poupança no campo sinalizado;</p>
+                    <p>- Documento da sua moto (CRLV).</p>
+                    <p>- Veículo em perfeitas condições mecânicas (sem restrição de ano)</p>
+                </div>
+            </div>
+            <div class="question-card" onclick="showHidden('hidden-10')">
+                <div class="card-flex">
+                    <h3>Para motos de placa vermelha:</h3>
+                    <i class="fas fa-angle-down"></i>
+                </div>
+                <div id="hidden-10" style="display: none;">
+                    <p>Os seguintes documentos atualizados:</p>
+                    <p>- CNH com a observação EAR (Exerce Atividade Remunerada) ativa ou MEI com atividade relacionada a entregas;
+                    </p>
+                    <p>- Um comprovante que informe os números da sua agência e conta bancária. Esse comprovante pode ser um cartão de débito ou de crédito, um extrato bancário ou até mesmo uma captura de tela do aplicativo do seu banco. A conta precisa
+                        estar no seu nome e você deve especificar se ela é corrente ou poupança no campo sinalizado;</p>
+                    <p>- Documento da sua moto (CRLV).</p>
+                    <p>- Carteirinha do Condumoto (para motoristas do estado de São Paulo);</p>
+                    <p>- Licença de motofrete.</p>
+                    <p>- Veículo em perfeitas condições mecânicas (sem restrição de ano)</p>
+                </div>
+            </div>
+            <div class="question-card" onclick="showHidden('hidden-11')">
+                <div class="card-flex">
+                    <h3>Quais os requisitos necessários para a minha ativação com veículos de 4 rodas?</h3>
+                    <i class="fas fa-angle-down"></i>
+                </div>
+                <div id="hidden-11" style="display: none;">
+                    <p>Você precisa ter um carro sedan, hatch, SUV, utilitário ou VUC fabricados em qualquer ano, desde que em perfeitas condições mecânicas.</p>
+                    <p>Além disso, você precisa dos seguintes documentos atualizados:</p>
+                    <p> - CNH com a observação EAR (Exerce Atividade Remunerada) ativa ou MEI com atividade relacionada a entregas;
+                    </p>
+                    <p> - Um comprovante que informe os números da sua agência e conta bancária. Esse comprovante pode ser um cartão de débito ou de crédito, um extrato bancário ou até mesmo uma captura de tela do aplicativo do seu banco. A conta precisa
+                        estar no seu nome e você deve especificar se ela é corrente ou poupança no campo sinalizado;</p>
+                    <p> - Documento do veículo (CRLV).</p>
+                    <p>- Documento opcional: ANTT</p>
+                </div>
+            </div>
+            <div class="question-card" onclick="showHidden('hidden-12')">
+                <div class="card-flex">
+                    <h3>Quais modelos de veículos são aceitos na plataforma?</h3>
+                    <i class="fas fa-angle-down"></i>
+                </div>
+                <div id="hidden-12" style="display: none;">
+                    <ul class="transport-vehicles">
+                        <li>
+                            <p>Motos</p>
+                        </li>
+                        <li>
+                            <p>Carros (SUV, sedan e hatch)</p>
+                        </li>
+                        <li>
+                            <p>Utilitários e similares</p>
+                        </li>
+                        <li>
+                            <p>Vans e similares</p>
+                        </li>
+                        <li>
+                            <p>Carretos e VUCs</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="question-card" onclick="showHidden('hidden-13')">
+                <div class="card-flex">
+                    <h3>Meu veículo não se encontra na lista, como posso ser um Agente na MercadoExpresso?</h3>
+                    <i class="fas fa-angle-down"></i>
+                </div>
+                <div id="hidden-13" style="display: none;">
+                    <p>A MercadoExpresso aceita veículos alugados ou em nome de terceiros. Você também pode tentar se registrar com seu veículo, mesmo que não esteja entre os listados. Quem sabe a gente não crie uma categoria para seu veículo no futuro.</p>
+                </div>
+            </div>
+            <div class="question-card" onclick="showHidden('hidden-14')">
+                <div class="card-flex">
+                    <h3>Posso dirigir sem ser o dono de um veículo?</h3>
+                    <i class="fas fa-angle-down"></i>
+                </div>
+                <div id="hidden-14" style="display: none;">
+                    <p>Sim, não é necessário que o veículo esteja em seu nome.</p>
+                </div>
+            </div>
+            <div class="question-card" onclick="showHidden('hidden-15')">
+                <div class="card-flex">
+                    <h3>Eu tenho diversos veículos, posso adicioná-los ao meu perfil de motorista?</h3>
+                    <i class="fas fa-angle-down"></i>
+                </div>
+                <div id="hidden-15" style="display: none;">
+                    <p>Sim, ao ficar online o Agente especifica quais de seus veículos estão disponíveis e, quando a missão for aceita, será especificado qual dos veículos disponíveis que deverá ser empregado para cumpri-la.
+                    </p>
+                </div>
+            </div>
+            <div class="question-card" onclick="showHidden('hidden-16')">
+                <div class="card-flex">
+                    <h3>Eu posso compartilhar o mesmo veículo com um amigo, cada um com sua conta?</h3>
+                    <i class="fas fa-angle-down"></i>
+                </div>
+                <div id="hidden-16" style="display: none;">
+                    <p>Sim, apenas atente-se que não é permitido atender a missões na MercadoExpresso com qualquer outro veículo além dos cadastrados em seu perfil. E quando um Agente estiver online com um veículo, o outro não conseguirá ficar online com
+                        o mesmo.</p>
+                </div>
+            </div>
+            <div class="question-card" onclick="showHidden('hidden-17')">
+                <div class="card-flex">
+                    <h3>Posso ter o aplicativo em mais de um celular?</h3>
+                    <i class="fas fa-angle-down"></i>
+                </div>
+                <div id="hidden-17" style="display: none;">
+                    <p>Em breve</p>
+                </div>
+            </div>
+            <div class="question-card" onclick="showHidden('hidden-18')">
+                <div class="card-flex">
+                    <h3>A MercadoExpresso cobra algum tipo de taxa pela verificação da conta? Se sim, quanto?</h3>
+                    <i class="fas fa-angle-down"></i>
+                </div>
+                <div id="hidden-18" style="display: none;">
+                    <p>Não é cobrado nenhum valor pela ativação de sua conta!</p>
+                </div>
+            </div>
+            <div class="question-card" onclick="showHidden('hidden-19')">
+                <div class="card-flex">
+                    <h3>Porque é necessário fazer um depósito de caução na ativação? O dinheiro depositado pode ser recuperado depois?</h3>
+                    <i class="fas fa-angle-down"></i>
+                </div>
+                <div id="hidden-19" style="display: none;">
+                    <p>A taxa de caução te protege em casos de quebras acidentais enquanto trabalha conosco! Este depósito é feito apenas na ativação. A única condição em que é cobrado novamente é, se precisarmos repor alguma coisa que quebre durante uma
+                        entrega que você faz conosco. A taxa é devolvida ao Agente quando ele decidir encerrar a parceria com a plataforma. </p>
+                </div>
+            </div>
+            <div class="question-card" onclick="showHidden('hidden-20')">
+                <div class="card-flex">
+                    <h3>Ao me cadastrar eu me torno um funcionário da MercadoExpresso?</h3>
+                    <i class="fas fa-angle-down"></i>
+                </div>
+                <div id="hidden-20" style="display: none;">
+                    <p>Não, você se tornará um Agente parceiro, sem vínculo ou qualquer tipo de relação trabalhista com a MercadoExpresso.
+                    </p>
+                </div>
+            </div>
+            <div class="question-card" onclick="showHidden('hidden-21')">
+                <div class="card-flex">
+                    <h3>Como consigo um baú ou uma bag da MercadoExpresso?</h3>
+                    <i class="fas fa-angle-down"></i>
+                </div>
+                <div id="hidden-21" style="display: none;">
+                    <p>Existem duas possibilidades: adquirir conosco ou ser premiado com um desses itens. Para adquirir, entre em contato com nosso suporte e verifique o procedimento e a disponibilidade. Já para ser premiado, faça muitas corridas com a gente
+                        e mantenha sua nota alta. Periodicamente, nós fazemos eventos para presentear os parceiros. Se você continuar entregando com comprometimento e qualidade, pode ter certeza: você também será premiado!</p>
+                </div>
+            </div>
+            <div class="question-card" onclick="showHidden('hidden-22')">
+                <div class="card-flex">
+                    <h3>Quais as diferenças entre ser um agente com placa cinza ou placa vermelha?</h3>
+                    <i class="fas fa-angle-down"></i>
+                </div>
+                <div id="hidden-22" style="display: none;">
+                    <p>Quais as diferenças entre ser um agente com placa cinza ou placa vermelha?</p>
+                    <p>Na categoria de placa vermelha o Agente é profissional e tem licenças como motofrete e Condumoto. As mercadorias são transportadas em baús e os pedidos têm valores um pouco maiores.</p>
+                </div>
+            </div>
+            <div class="question-card" onclick="showHidden('hidden-23')">
+                <div class="card-flex">
+                    <h3>Posso ser um Agente da MercadoExpresso e continuar entregando com outras empresas?</h3>
+                    <i class="fas fa-angle-down"></i>
+                </div>
+                <div id="hidden-23" style="display: none;">
+                    <p>Sim. Você tem a liberdade para entregar com outras empresas. No entanto, pedimos que em hipótese alguma você aceite dois pedidos de apps diferentes ao mesmo tempo. Para a MercadoExpresso, respeitar o prazo de entrega é fundamental,
+                        e situações assim podem comprometer a qualidade do serviço prestado, e consequentemente afetar sua reputação na plataforma. </p>
+                </div>
+            </div>
+            <div class="question-card" onclick="showHidden('hidden-24')">
+                <div class="card-flex">
+                    <h3>Quantos dias leva para eu começar a lucrar com o aplicativo?</h3>
+                    <i class="fas fa-angle-down"></i>
+                </div>
+                <div id="hidden-24" style="display: none;">
+                    <p>Assim que sua conta é ativada, você começa a receber notificações de serviço e já começa a construir sua renda.
+                    </p>
+                </div>
+            </div>
+            <div class="question-card" onclick="showHidden('hidden-25')">
+                <div class="card-flex">
+                    <h3>Quanto eu posso ganhar por semana com a MercadoExpresso?</h3>
+                    <i class="fas fa-angle-down"></i>
+                </div>
+                <div id="hidden-25" style="display: none;">
+                    <p>Todas as categorias de veículos tem ótimas possibilidades de ganhos, dependendo apenas da frequência do Agente na plataforma e da demanda de entregas, que cresce todos os dias em todas as regiões que atendemos. Seus ganhos são fixos
+                        e determinados por distância percorrida e serviços extras contratados.
+                    </p>
+                </div>
+            </div>
+            <div class="question-card" onclick="showHidden('hidden-26')">
+                <div class="card-flex">
+                    <h3>Após a Verificação, como posso sacar meus ganhos?</h3>
+                    <i class="fas fa-angle-down"></i>
+                </div>
+                <div id="hidden-26" style="display: none;">
+                    <p>Para sacar o seu dinheiro, faça o seguinte:</p>
+                    <ol>
+                        <li>
+                            <p>Clique na sua foto para acessar o menu “Conta”;</p>
+                        </li>
+                        <li>
+                            <p>Selecione a opção “Minha Carteira” para visualizar seus ganhos;</p>
+                        </li>
+                        <li>
+                            <p>Verifique seu saldo e em seguida clique em “Sacar”</p>
+                        </li>
+                        <li>
+                            <p>Insira o valor que deseja sacar e em seguida clique em “Confirmar”.</p>
+                        </li>
+                        <li>
+                            <p>Pronto! Agora é só aguardar o valor cair na sua conta!</p>
+                        </li>
+                    </ol>
+                    <p>Não se esqueça de que é preciso ter uma Conta ou poupança em seu nome para efetuar o pedido de saque. Você pode especificar um saque de todo o valor disponível ou de uma fração dele.</p>
+                    <p>Solicitações feitas até 23h59 de domingo são depositadas até quinta-feira da mesma semana.</p>
+                </div>
+            </div>
+            <div class="question-card" onclick="showHidden('hidden-27')">
+                <div class="card-flex">
+                    <h3>Meu repasse não foi transferido para minha conta bancária. Como devo proceder?</h3>
+                    <i class="fas fa-angle-down"></i>
+                </div>
+                <div id="hidden-27" style="display: none;">
+                    <p>Caso o seu repasse não caia em sua conta bancária até quinta-feira após a sua solicitação, a MercadoExpresso vai entrar em contato com você para solucionar eventuais problemas. Pode ficar tranquilo!
+                    </p>
+                </div>
+            </div>
+            <div class="question-card" onclick="showHidden('hidden-28')">
+                <div class="card-flex">
+                    <h3>Preciso emitir nota para a MercadoExpresso?</h3>
+                    <i class="fas fa-angle-down"></i>
+                </div>
+                <div id="hidden-28" style="display: none;">
+                    <p>Não! A MercadoExpresso apenas intermedia a relação entre os serviços de entrega e os Agentes parceiros. Por isso não precisamos de nota fiscal.</p>
+                </div>
+            </div>
+            <div class="question-card" onclick="showHidden('hidden-29')">
+                <div class="card-flex">
+                    <h3>Recebo alguma nota fiscal da MercadoExpresso?</h3>
+                    <i class="fas fa-angle-down"></i>
+                </div>
+                <div id="hidden-29" style="display: none;">
+                    <p>Não, mas por meio do aplicativo você pode ver todo o histórico das suas transações.</p>
+                </div>
+            </div>
+            <div class="question-card" onclick="showHidden('hidden-30')">
+                <div class="card-flex">
+                    <h3>A MercadoExpresso cobra algum tipo de comissão dos Agentes parceiros?</h3>
+                    <i class="fas fa-angle-down"></i>
+                </div>
+                <div id="hidden-30" style="display: none;">
+                    <p>Sim, cobramos uma comissão sobre as missões na plataforma. Com ela podemos oferecer um melhor suporte para você, assim como conseguimos oferecer um aplicativo estável e com melhoria contínua..</p>
+                </div>
+            </div>
+            <div class="question-card" onclick="showHidden('hidden-31')">
+                <div class="card-flex">
+                    <h3>Quando eu recebo uma notificação de Missão, o valor aparece com ou sem comissão?</h3>
+                    <i class="fas fa-angle-down"></i>
+                </div>
+                <div id="hidden-31" style="display: none;">
+                    <p>Ao receber uma notificação de missão disponível, você verá o valor líquido do serviço, já descontada a comissão da MercadoExpresso. </p>
+                </div>
+            </div>
+            <div class="question-card" onclick="showHidden('hidden-32')">
+                <div class="card-flex">
+                    <h3>Devo emitir nota fiscal para a MercadoExpresso?</h3>
+                    <i class="fas fa-angle-down"></i>
+                </div>
+                <div id="hidden-32" style="display: none;">
+                    <p>Não é necessário emitir uma nota fiscal. A MercadoExpresso é uma empresa intermediadora do serviço de entrega entre os clientes solicitantes e os clientes Agentes. Portanto, emitimos uma nota fiscal para o cliente solicitante com os
+                        valores referentes à comissão pelo uso da plataforma.</p>
+                </div>
+            </div>
+            <div class="question-card" onclick="showHidden('hidden-33')">
+                <div class="card-flex">
+                    <h3>Recebo alguma nota fiscal da MercadoExpresso?</h3>
+                    <i class="fas fa-angle-down"></i>
+                </div>
+                <div id="hidden-33" style="display: none;">
+                    <p>Sim, você recebe uma NFS-e (Nota Fiscal de Serviços Eletrônica) a cada mês referente à comissão para a MercadoExpresso.
+                    </p>
+                    <p>A emissão da NFS-e é realizada até o dia 345 (quinze) de cada mês. O link da nota eletrônica e o boleto são enviados através do remetente fiscal@mercadoexpresso.com.br diretamente para o seu e-mail cadastrado na plataforma. </p>
+                </div>
+            </div>
+            <div class="question-card" onclick="showHidden('hidden-35')">
+                <div class="card-flex">
+                    <h3>Como baixar o aplicativo da MercadoExpresso?</h3>
+                    <i class="fas fa-angle-down"></i>
+                </div>
+                <div id="hidden-35" style="display: none;">
+                    <p>Caso seu celular seja Android, basta acessar a Play supplier e procurar pelo aplicativo MercadoExpresso Para Agentes. Se você tiver um iPhone, faça a mesma coisa na App supplier. Nosso app tem um ícone com um alien entregador.</p>
+                </div>
+            </div>
+            <div class="question-card" onclick="showHidden('hidden-36')">
+                <div class="card-flex">
+                    <h3>Quais os equipamentos necessários para realizar Missões de entregas com motos?</h3>
+                    <i class="fas fa-angle-down"></i>
+                </div>
+                <div id="hidden-36" style="display: none;">
+                    <p>Antes de tudo, a MercadoExpresso prioriza a sua segurança. Por isso, assim que você estiver habilitado na nossa plataforma e pronto para começar a atender a Missões de entregas, certifique-se que você esteja com o equipamento necessário
+                        - o capacete é essencial para a sua integridade física. Você também precisa de uma bag (ou baú, no caso da categoria placa vermelha) para transportar o produto.</p>
+                    <p>Com tudo pronto e depois que seu cadastro for ativado, basta abrir o aplicativo “ MercadoExpresso® para Agentes” e começar a cumprir missões.</p>
+                </div>
+            </div>
+            <div class="question-card" onclick="showHidden('hidden-37')">
+                <div class="card-flex">
+                    <h3>Como ficar online e offline no app?</h3>
+                    <i class="fas fa-angle-down"></i>
+                </div>
+                <div id="hidden-37" style="display: none;">
+                    <p>Na primeira tela do app, você decide se está online e disponível para fazer entregas, ou se prefere ficar offline e, portanto, indisponível. Ao ficar online você pode indicar quais dos veículos associados a você estão disponíveis no
+                        momento para atender a Missões. </p>
+                </div>
+            </div>
+            <div class="question-card" onclick="showHidden('hidden-38')">
+                <div class="card-flex">
+                    <h3>Como são as notificações de entrega do app?</h3>
+                    <i class="fas fa-angle-down"></i>
+                </div>
+                <div id="hidden-38" style="display: none;">
+                    <p>Quando uma nova Missão chegar, você ouvirá um som de “Missão Secreta” e uma janela aparecerá com informações sobre o serviço. Quando o pedido se tratar de uma entrega, será mostrado o bairro de coleta e retirada do pedido, o veículo
+                        a ser empregado, o valor, a forma de pagamento e quando a entrega deverá ser feita.</p>
+                    <p>Atualmente, todos os pedidos devem ser atendidos de imediato, ou seja, assim que o parceiro aceitar o pedido. Mas futuramente outras modalidades serão acrescentadas.</p>
+                </div>
+            </div>
+            <div class="question-card" onclick="showHidden('hidden-39')">
+                <div class="card-flex">
+                    <h3>Devo seguir o trajeto que está no aplicativo?</h3>
+                    <i class="fas fa-angle-down"></i>
+                </div>
+                <div id="hidden-39" style="display: none;">
+                    <p>A MercadoExpresso sabe que os Agentes parceiros são os que mais conhecem as ruas da cidade - afinal, é nas ruas que vocês trabalham todo dia! Entretanto, nosso aplicativo calcula a rota de menor tempo até os endereços de coleta e entrega.
+                        Por isso, recomendamos que você use o GPS, já que o valor da corrida é calculado com base nessa rota. Além disso, como tanto o cliente como a MercadoExpresso conseguem acompanhar sua localização em tempo real, é melhor seguir o
+                        caminho estipulado pelo GPS. </p>
+                </div>
+            </div>
+            <div class="question-card" onclick="showHidden('hidden-40')">
+                <div class="card-flex">
+                    <h3>Como proceder para retirar o pedido com o Fornecedor?</h3>
+                    <i class="fas fa-angle-down"></i>
+                </div>
+                <div id="hidden-40" style="display: none;">
+                    <p>Ao chegar ao local de coleta, identifique-se ao Fornecedor que irá validar sua identidade através de sua fotografia e do token de verificação. Informe o seu token corretamente para que o Fornecedor valide-o em seu aplicativo. Quando
+                        o token for validado o pedido o status do pedido será atualizado na plataforma, tornando-se visível inclusive para o cliente como Retirado. Tire algumas fotografias do pacote como evidência e atualize no campo solicitado em seu
+                        aplicativo, em seguida se dirija ao local de entrega.
+                    </p>
+                </div>
+            </div>
+            <div class="question-card" onclick="showHidden('hidden-41')">
+                <div class="card-flex">
+                    <h3>Como proceder para entregar o pedido para o Cliente?</h3>
+                    <i class="fas fa-angle-down"></i>
+                </div>
+                <div id="hidden-41" style="display: none;">
+                    <p>Ao chegar ao local de entrega, confira as instruções de entrega e certifique-se de segui-las apropriadamente para localizar o Cliente. Se for necessário utilize o chat para falar com ele e facilitar o encontro de vocês. Inclusive você
+                        poderá tirar fotos de onde está e subir como anexo na conversa com o objetivo de agilizar o processo de encontro.</p>
+                    <p>Geralmente o cliente estará lá para receber a entrega, mas pode ser que ele peça para alguém receber em seu lugar. Em qualquer caso será necessário solicitar o código de verificação do cliente para validar se quem está recebendo o
+                        pedido de fato é uma pessoa autorizada. Ao receber o token do cliente, digite-o no campo apropriado em seu aplicativo e apenas entregue a encomenda se o aplicativo informar que o token é válido. Neste caso a missão será atualizada
+                        com o status Concluída e você estará liberado para atender novas missões. Caso o destinatário não disponha de um token válido, entre em contato com o suporte da MercadoExpresso através do chat do seu aplicativo que dentro de instantes
+                        você receberá as instruções de como proceder. </p>
+                </div>
+            </div>
+            <div class="question-card" onclick="showHidden('hidden-42')">
+                <div class="card-flex">
+                    <h3>O Cliente mora em um condomínio. Preciso subir até a porta do apartamento para entregar em mãos?
+                    </h3>
+                    <i class="fas fa-angle-down"></i>
+                </div>
+                <div id="hidden-42" style="display: none;">
+                    <p>Se for um condomínio horizontal e estiver autorizado pelo cliente, o procedimento padrão é seguir até a residência do Cliente para encontrá-lo e entregar em mãos, a menos que ele passe o token para o porteiro e solicite que a encomenda
+                        seja deixada na portaria.</p>
+                    <p>No entanto, para condomínios verticais, o procedimento padrão é encontrar o cliente na portaria e realizar a entrega lá mesmo. A exceção é quando o cliente contratou um serviço adicional para entrega na porta. Neste caso, quando você
+                        aceita a Missão, se compromete a cumprir as instruções de entrega fornecidas pelo cliente apropriadamente, tendo, por exemplo, que se dirigir à sua residência caso seja necessário. </p>
+                </div>
+            </div>
+            <div class="question-card" onclick="showHidden('hidden-43')">
+                <div class="card-flex">
+                    <h3>Como agir se a sua carga for roubada?</h3>
+                    <i class="fas fa-angle-down"></i>
+                </div>
+                <div id="hidden-43" style="display: none;">
+                    <p>É importante frisar que a sua segurança e bem-estar são o que realmente importam nesse tipo de situação. Por isso, antes de fazer qualquer coisa, certifique-se de estar em um local seguro. Depois disso, siga os passos a seguir:</p>
+                    <ol>
+                        <li>Caso você não esteja bem fisicamente, dirija-se primeiro ao hospital mais próximo. Somente depois de ficar bem, continue as próximas etapas;</li>
+                        <li>Se você estiver bem fisicamente, dirija-se à delegacia mais próxima e faça um boletim de ocorrência. Após isso, envie uma foto do documento para a gente através do suporte pelo aplicativo ou email
+                            <a href="mailto:mercadoexpresso@scorefy.com" target="_blank">mercadoexpresso@scorefy.com</a>
+                        </li>
+                    </ol>
+                </div>
+            </div>
+            <div class="question-card" onclick="showHidden('hidden-44')">
+                <div class="card-flex">
+                    <h3>Se eu suspeitar que estou com uma carga ilícita, como devo agir?</h3>
+                    <i class="fas fa-angle-down"></i>
+                </div>
+                <div id="hidden-44" style="display: none;">
+                    <p>Caso você esteja em uma missão e desconfie que o item entregue pelo Fornecedor seja ilícito, sugerimos que você vá até a delegacia mais próxima e faça um boletim de ocorrência. Com o documento em mãos, entre em contato conosco pelo
+                        suporte do seu aplicativo e envie a foto do boletim.</p>
+                </div>
+            </div>
+            <div class="question-card" onclick="showHidden('hidden-45')">
+                <div class="card-flex">
+                    <h3>Posso fazer mais de uma entrega ao mesmo tempo?</h3>
+                    <i class="fas fa-angle-down"></i>
+                </div>
+                <div id="hidden-45" style="display: none;">
+                    <p>Não. Nós da MercadoExpresso queremos oferecer o melhor serviço possível para os nossos clientes. Por isso, os Agentes parceiros fazem uma entrega de cada vez. Assim, há um maior cuidado com o pedido. Além disso, com os parceiros fazendo
+                        apenas um serviço por vez, conseguimos distribuir nossas Missões de forma mais igualitária e beneficiamos um número maior de Agentes. </p>
+                </div>
+            </div>
+            <div class="question-card" onclick="showHidden('hidden-46')">
+                <div class="card-flex">
+                    <h3>Preciso entrar em contato com a MercadoExpresso, como proceder?</h3>
+                    <i class="fas fa-angle-down"></i>
+                </div>
+                <div id="hidden-46" style="display: none;">
+                    <p>Fale com a gente enviando uma mensagem pelo suporte do aplicativo ou através do email <a href="mailto:mercadoexpresso@scorefy.com" target="_blank">mercadoexpresso@scorefy.com</a>
+                    </p>
+                </div>
+            </div>
+            <div class="question-card" onclick="showHidden('hidden-47')">
+                <div class="card-flex">
+                    <h3>Não posso fazer a entrega que peguei. E agora?</h3>
+                    <i class="fas fa-angle-down"></i>
+                </div>
+                <div id="hidden-47" style="display: none;">
+                    <p>Um dos diferenciais da MercadoExpresso está no fato de apresentarmos todas as informações sobre os pedidos ao enviar as Missões para os nossos parceiros. Por isso, só aceite as missões que você realmente puder fazer. O cancelamento
+                        de uma Missão é feito apenas em situações emergenciais. Caso tenha alguma dúvida, fale com a gente pelo suporte do aplicativo ou através do email mercadoexpresso@scorefy.com.
+                    </p>
+                </div>
+            </div>
+            <div class="question-card" onclick="showHidden('hidden-48')">
+                <div class="card-flex">
+                    <h3>Posso ser selecionado para um pedido específico?</h3>
+                    <i class="fas fa-angle-down"></i>
+                </div>
+                <div id="hidden-48" style="display: none;">
+                    <p>O principal critério para uma Missão aparecer em seu aplicativo é a geolocalização, ou seja: o Agente (favoritado ou não) precisa estar sempre próximo do ponto de retirada para receber a notificação da Missão. A geolocalização é utilizada
+                        pelo usuário para acompanhar o seu pedido na plataforma.
+                    </p>
+                </div>
+            </div>
+            <div class="question-card" onclick="showHidden('hidden-49')">
+                <div class="card-flex">
+                    <h3>Caso não consiga realizar a entrega de algum pacote, o que fazer?</h3>
+                    <i class="fas fa-angle-down"></i>
+                </div>
+                <div id="hidden-49" style="display: none;">
+                    <p>Em algumas situações, não será possível realizar a entrega - o destinatário pode estar ausente, por exemplo, dentre outras variáveis. Caso isso ocorra, a MercadoExpresso acionará o cliente para informar sobre o ocorrido e buscar uma
+                        solução. A ação a ser tomada dependerá do remetente atender ou não o nosso contato. Entenda nosso curso de ação abaixo: </p>
+                    <ul class="action">
+                        <li>
+                            <p>Cliente atendo ao contato: pediremos um endereço de sua escolha para encaminhar o produto;
+                            </p>
+                        </li>
+                        <li>
+                            <p>Cliente não atende ao contato: o produto será encaminhado para o ponto de origem do pedido.
+                            </p>
+                        </li>
+                    </ul>
+                    <p>Caso o Fornecedor não receba o produto no endereço de origem, vamos levar em consideração se o produto é perecível (alimentos prontos, por exemplo) ou não. Com base nisso, o Agente parceiro será orientado a fazer o seguinte:</p>
+                    <ul class="action">
+                        <li>
+                            <p>Produto perecível: o item será descartado;</p>
+                        </li>
+                        <li>
+                            <p>Produto não-perecível: o item será transportado a um endereço designado pela MercadoExpresso. Nós aguardaremos o contato do cliente para encaminhá-lo a um ponto escolhido pelo cliente, mediante custos adicionais. </p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="question-card" onclick="showHidden('hidden-50')">
+                <div class="card-flex">
+                    <h3>Os agentes parceiros da MercadoExpresso têm algum seguro?</h3>
+                    <i class="fas fa-angle-down"></i>
+                </div>
+                <div id="hidden-50" style="display: none;">
+                    <p>Em breve</p>
+                </div>
+            </div>
+            <div class="question-card" onclick="showHidden('hidden-51')">
+                <div class="card-flex">
+                    <h3>Quais são meus direitos como Agente parceiro? </h3>
+                    <i class="fas fa-angle-down"></i>
+                </div>
+                <div id="hidden-51" style="display: none;">
+                    <p>É importante que você leia nossos Termos e Condições. Lá você encontrará informações importantes sobre seus direitos, responsabilidades, detalhes sobre repasses, dentre outras coisas importantes.
+                    </p>
+                </div>
+            </div>
+        </section>
+    </article>
+
+    <script type="text/javascript" src="resources/js/functions.js"></script>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="flex">
+                <div class="footer-column">
+                    <div class="marca" ">
+                        <h1> MercadoExpresso</h1>
+                        <h6 style="padding-top: 8px; font-size: 10px; ">®</h6>
+                    </div>
+                    <a href="https://scorefy-3a3a8.web.app/ ">
+                        <h2>by Scorefy</h2>
+                    </a>
+                </div>
+                <nav class="footer-column ">
+                    <ul>
+                        <li>
+                            <p id="first ">Sobre</p>
+                        </li>
+                        <li><a target="_blank " href="https://api.whatsapp.com/send?phone=556196133939&text=Quero%20levar%20o%20 MercadoExpresso%20para%20a%20minha%20cidade ">Cidades</a>
+                        </li>
+                        <li><a target="_blank " href="service.html ">Fale com a gente</a></li>
+                        <li><a target="_blank " href="# ">Termos de uso</a></li>
+                        <li><a target="_blank " href="# ">Privacidade</a></li>
+                        <li><a target="_blank " href="# ">Aplicativos</a></li>
+                    </ul>
+                </nav>
+                <nav class="footer-column ">
+                    <ul>
+                        <li>
+                            <p id="first ">Redes sociais</p>
+                        </li>
+                        <nav class="social-media ">
+                            <!-- <a href="# "><i class="fab fa-github fa-2x "></i></a> -->
+                            <a href="https://www.facebook.com/MercadoExpressobr " target="_blank "><i
+                                    class="fab fa-facebook fa-2x "></i>
+                                <p>@MercadoExpressobr</p>
+                            </a>
+                            <a href="https://www.instagram.com/MercadoExpressobr/ " target="_blank "><i
+                                    class="fab fa-instagram fa-2x "></i>
+                                <p>@MercadoExpressobr</p>
+                            </a>
+                            <a href="https://twitter.com/MercadoExbr " target="_blank "><i
+                                    class="fab fa-twitter fa-2x "></i>
+                                <p>@MercadoExbr</p>
+                            </a>
+                        </nav>
+                    </ul>
+                </nav>
+                <nav class="footer-column ">
+                    <a target="_blank " href="# "><img class="download-app-img " src="resources/css/img/disponivel-google-play-badge-5.png "></img>
+                    </a>
+                    <a target="_blank " href="# "><img class="download-app-img " src="resources/css/img/disponivel-na-app-store-botao-8.png "></img>
+                    </a>
+                    <ul class=" ">
+                        <li>
+                        </li>
+                        <li>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="footer-score-data ">
+                <p>© 2022 MercadoExpresso by Scorefy<br>Scorefy Ltda., CNPJ/ME nº 29.412.420/0001-67, SCN <br> SETOR COMERCIAL NORTE QUADRA 04 BLOCO “B” SALA 702 <br>CEP: 70.714-020, Asa Norte - Brasília - DF</p>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
